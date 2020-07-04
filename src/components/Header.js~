@@ -1,0 +1,34 @@
+import React, { Component } from 'react';
+import styled from 'styled-components';
+
+const pageHeader = styled.div`
+min-height: 100vh;
+max-height: 999px;
+padding: 0;
+color: #FFFFFF;
+position: relative;
+overflow: hidden;
+`;
+const pageHeaderImage =styled.div`
+    background-image:url(${require('../asstes/img/bg3.jpg')});
+    position: absolute;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+`
+
+ class Header extends Component {
+    render() {
+        return (
+           
+                <pageHeader>
+                    hii
+                </pageHeader>
+          
+        )
+    }
+}
+
+export default Header;
