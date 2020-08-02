@@ -65,6 +65,7 @@
 }
 .description{
     padding: 10px;
+    min-height: 200px;
     font-family: 'Source Code Pro', monospace;
 }
 .description h3{
@@ -72,6 +73,15 @@
 }
 .description p{
     font-size: .8rem;
+}
+.source-link a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black !important;
+}
+.source-link a :focus{
+    text-decoration: none;
+    outline: none;
 }
 .description button{
     position: relative;

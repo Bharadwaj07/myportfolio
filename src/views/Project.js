@@ -3,24 +3,6 @@ import {Container,Row,Col,Carousel} from 'react-bootstrap';
 // import myWork from './ProjectData';
 class Project extends React.Component{
     render(){
-        // const work = myWork.map(work =>{
-        //     return(
-        //         <Col md='4' className='work'>
-        //             <Card style={{ width:'100%' }}>
-        //                 <Card.Img variant="top" src={require(`../assets/img/${work.imgUrl}`)} />
-        //                 <Card.Body>
-        //                     <div className='project-details'>
-        //                         <h5 className="project-title">{work.name}</h5>
-        //                         <p className='project-desc'>{work.description}</p>
-        //                     </div>
-        //                     <div className="button">
-        //                        <button className="github-btn"><i className="fa  fa-github-square fa-2x"/><h5>Source</h5></button>
-        //                     </div>
-        //                 </Card.Body>
-        //             </Card>
-        //         </Col>
-        //     )
-        // })
         return(
             <Container className='work-container' id="my-work">
                 <div className='work-content'>
@@ -37,12 +19,16 @@ class Project extends React.Component{
                                                     <Carousel.Item>
                                                         <img
                                                         className="d-block w-100"
-                                                        src={require("../assets/img/screenshots/moviedb1.png")}
+                                                        src={require("../assets/img/screenshots/moviedb3.png")}
                                                         alt="First slide"
                                                         />
-                                                        <Carousel.Caption>
-                                                        <h3>The MovieDb</h3>
-                                                        </Carousel.Caption>
+                                                    </Carousel.Item>
+                                                    <Carousel.Item>
+                                                        <img
+                                                        className="d-block w-100"
+                                                        src={require("../assets/img/screenshots/moviedb2.png")}
+                                                        alt="Third slide"
+                                                        />
                                                     </Carousel.Item>
                                                     <Carousel.Item>
                                                         <img
@@ -50,32 +36,17 @@ class Project extends React.Component{
                                                         src={require("../assets/img/screenshots/moviedb1.png")}
                                                         alt="Third slide"
                                                         />
-
-                                                        <Carousel.Caption>
-                                                        <h3>The MovieDb</h3>
-                                                
-                                                        </Carousel.Caption>
-                                                    </Carousel.Item>
-                                                    <Carousel.Item>
-                                                        <img
-                                                        className="d-block w-100"
-                                                        src={require("../assets/img/screenshots/moviedb1.png")}
-                                                        alt="Third slide"
-                                                        />
-
-                                                        <Carousel.Caption>
-                                                        <h3>The MovieDb</h3>
-                                                        </Carousel.Caption>
                                                     </Carousel.Item>
                                                     </Carousel>
                                         </div>
                                         <div className="description">
-                                        <h3>Title</h3>
+                                        <h3>The MovieDb</h3>
                                             <p>
-                                            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-                                            "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain.
+                                                The Movie Db is a react web app ,It is to display the recent movie details and trailers ,
+                                                I have used TMDB api to render the movie data .
+
                                             </p>
-                                            <button><i class="fa fa-github" aria-hidden="true"></i> Source</button>
+                                            <button className="source-link"><a href="https://github.com/Bharadwaj07/TheMovieDb"><i class="fa fa-github" aria-hidden="true"></i> Source</a></button>
                                         </div>
                                     </div>
 
@@ -87,45 +58,26 @@ class Project extends React.Component{
                                                     <Carousel.Item>
                                                         <img
                                                         className="d-block w-100"
-                                                        src={require("../assets/img/screenshots/moviedb1.png")}
+                                                        src={require("../assets/img/screenshots/centurysports1.png")}
                                                         alt="First slide"
                                                         />
-                                                        <Carousel.Caption>
-                                                        <h3>The MovieDb</h3>
-                                                        </Carousel.Caption>
                                                     </Carousel.Item>
                                                     <Carousel.Item>
                                                         <img
                                                         className="d-block w-100"
-                                                        src={require("../assets/img/screenshots/moviedb1.png")}
+                                                        src={require("../assets/img/screenshots/centurysports2.png")}
                                                         alt="Third slide"
                                                         />
-
-                                                        <Carousel.Caption>
-                                                        <h3>The MovieDb</h3>
-                                                
-                                                        </Carousel.Caption>
-                                                    </Carousel.Item>
-                                                    <Carousel.Item>
-                                                        <img
-                                                        className="d-block w-100"
-                                                        src={require("../assets/img/screenshots/moviedb1.png")}
-                                                        alt="Third slide"
-                                                        />
-
-                                                        <Carousel.Caption>
-                                                        <h3>The MovieDb</h3>
-                                                        </Carousel.Caption>
                                                     </Carousel.Item>
                                                     </Carousel>
                                         </div>
                                         <div className="description">
-                                            <h3>Title</h3>
+                                            <h3>CenturySports</h3>
                                             <p>
-                                            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-                                            "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain.
+                                                CenturySports is a simulation of sports website using angular and firebase 
+                                                it has a simple registration and login interface.
                                             </p>
-                                            <button><i class="fa fa-github" aria-hidden="true"></i> Source</button>
+                                            <button className="source-link"><a href="https://github.com/Bharadwaj07/CenturySports"><i class="fa fa-github" aria-hidden="true"></i> Source</a></button>
                                         </div>
                                     </div>
                             </Col>
@@ -138,33 +90,26 @@ class Project extends React.Component{
                                                     <Carousel.Item>
                                                         <img
                                                         className="d-block w-100"
-                                                        src={require("../assets/img/screenshots/moviedb1.png")}
+                                                        src={require("../assets/img/screenshots/covidtracker1.png")}
                                                         alt="First slide"
                                                         />
                                                     </Carousel.Item>
                                                     <Carousel.Item>
                                                         <img
                                                         className="d-block w-100"
-                                                        src={require("../assets/img/screenshots/moviedb1.png")}
-                                                        alt="Third slide"
-                                                        />
-                                                    </Carousel.Item>
-                                                    <Carousel.Item>
-                                                        <img
-                                                        className="d-block w-100"
-                                                        src={require("../assets/img/screenshots/moviedb1.png")}
+                                                        src={require("../assets/img/screenshots/covidtracker2.png")}
                                                         alt="Third slide"
                                                         />
                                                     </Carousel.Item>
                                                     </Carousel>
                                         </div>
                                         <div className="description">
-                                            <h3>Title</h3>
+                                            <h3>Covid-19 Tracker</h3>
                                             <p>
-                                            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-                                            "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain.
+                                                Covid-19 tracker is a react web application , it displays the live covid cases countrywise.
+                                                I have used disease.sh api to render the data and leaflet api for maps.
                                             </p>
-                                            <button><i class="fa fa-github" aria-hidden="true"></i> Source</button>
+                                            <button className="source-link"><a href="https://github.com/Bharadwaj07/covid-19-tracker"><i class="fa fa-github" aria-hidden="true"></i> Source</a></button>
                                         </div>
                                 </div>
                             </Col>
@@ -175,33 +120,41 @@ class Project extends React.Component{
                                                     <Carousel.Item>
                                                         <img
                                                         className="d-block w-100"
-                                                        src={require("../assets/img/screenshots/moviedb1.png")}
+                                                        src={require("../assets/img/screenshots/portfolio1.png")}
                                                         alt="First slide"
                                                         />
                                                     </Carousel.Item>
                                                     <Carousel.Item>
                                                         <img
                                                         className="d-block w-100"
-                                                        src={require("../assets/img/screenshots/moviedb1.png")}
+                                                        src={require("../assets/img/screenshots/portfolio2.png")}
                                                         alt="Third slide"
                                                         />
                                                     </Carousel.Item>
                                                     <Carousel.Item>
                                                         <img
                                                         className="d-block w-100"
-                                                        src={require("../assets/img/screenshots/moviedb1.png")}
+                                                        src={require("../assets/img/screenshots/portfolio3.png")}
+                                                        alt="Third slide"
+                                                        />
+                                                    </Carousel.Item>
+                                                    <Carousel.Item>
+                                                        <img
+                                                        className="d-block w-100"
+                                                        src={require("../assets/img/screenshots/portfolio4.png")}
                                                         alt="Third slide"
                                                         />
                                                     </Carousel.Item>
                                                     </Carousel>
                                         </div>
                                         <div className="description">
-                                        <h3>Title</h3>
+                                        <h3>My Portfolio</h3>
                                             <p>
-                                            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-                                            "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain.
+                                                My portfolio is designed using react js .It is to display my work and my proficiancy in web development.
+                                                It is just a front end project .
+                                                
                                             </p>
-                                            <button><i class="fa fa-github" aria-hidden="true"></i> Source</button>
+                                            <button className="source-link"><a href="https://github.com/Bharadwaj07/myportfolio"><i class="fa fa-github" aria-hidden="true"></i> Source</a></button>
                                         </div>   
                                     </div>
                             </Col>

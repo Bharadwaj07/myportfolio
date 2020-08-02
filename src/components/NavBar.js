@@ -4,7 +4,7 @@ import {Navbar,Nav,Container} from 'react-bootstrap';
     render() {
         return (
             <>
-                <Navbar collapseOnSelect  className="navbar"variant="dark" fixed="top" >
+                <Navbar collapseOnSelect expand="lg" className="navbar"variant="dark" fixed="top" >
                     <Container>
                         <Navbar.Brand href="#home"><i class="fa fa-code fa-1x" aria-hidden="true"></i></Navbar.Brand>
                         <Navbar.Toggle variant="dark" className="toggle"/>

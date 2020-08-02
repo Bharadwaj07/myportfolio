@@ -23,8 +23,9 @@ class About extends React.Component{
                             <div className="about-about">
                                 <h2>About Me</h2>
                                 <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus hendrerit ultrices lectus sodales auctor. Sed mi libero, rhoncus eu gravida gravida, placerat at tellus. Etiam vestibulum diam nec nibh iaculis.
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus hendrerit ultrices lectus sodales auctor. Sed mi libero, rhoncus eu gravida gravida, placerat at tellus. Etiam vestibulum diam nec nibh iaculis.
+                                    I'm Bharadwaj K R , a web developer and passionate about the trending techonolgies like react ,angular .
+                                    Frankly I can say myself as a learner rather than a developer.I'm not perfect at anything but I want to be.
+                             
                                 </p>
                             </div>
                         </Col>
@@ -58,10 +59,10 @@ class About extends React.Component{
                                     <img src="https://img.icons8.com/color/48/000000/typescript.png" alt=""/>
                                 </div>
                                 <div className="frameworks">
-                                    <img src="https://img.icons8.com/plasticine/100/000000/react.png" alt=""/>
-                                    <img src="https://img.icons8.com/color/96/000000/nodejs.png" alt=""/>
-                                    <img src="https://img.icons8.com/color/96/000000/angularjs.png" alt=""/>
-                                    <img src="https://img.icons8.com/color/96/000000/django.png" alt=""/>
+                                    <img src="https://img.icons8.com/plasticine/60/000000/react.png" alt=""/>
+                                    <img src="https://img.icons8.com/color/60/000000/nodejs.png" alt=""/>
+                                    <img src="https://img.icons8.com/color/60/000000/angularjs.png" alt=""/>
+                                    <img src="https://img.icons8.com/color/60/000000/django.png" alt=""/>
                                 </div>
                                 <div className="database">
                                     <img src="https://img.icons8.com/color/96/000000/mongodb.png" alt=""/>
