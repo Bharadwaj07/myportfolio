@@ -1,12 +1,17 @@
 import React from 'react'
-import NavBar from '../components/NavBar'
 import Header from '../components/Header'
+import About from './About'
+import Project from './Project'
+import Contact from './Contact'
 
  function LandingPage() {
     return (
         <>
-            <NavBar/>
             <Header/>
+            <About/>
+            <Project/>
+            <Contact/>
+
         </>
     )
 }

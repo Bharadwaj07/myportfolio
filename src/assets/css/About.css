@@ -1,0 +1,85 @@
+.about{
+    width: 100%;
+    margin: 20px;
+    
+}
+.about h2{
+    /* text-align: center; */
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Source Code Pro', monospace;
+    color: cadetblue;
+}
+.about-container{
+    border-radius: 20px;
+    -webkit-box-shadow: -4px 9px 16px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: -4px 9px 16px 3px rgba(0,0,0,0.75);
+    box-shadow: -4px 9px 16px 3px rgba(0,0,0,0.75);
+}
+.about-container h2{
+    text-align: center;
+}
+.about-content{
+    padding-top: 100px;
+}
+
+.about-content p{
+    margin: 50px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(80, 85, 85);
+}
+.image-container{
+    padding-top: 40px;
+}
+.image-container img{
+    width: 90%;
+}
+
+.skillImage-container{
+    padding-top: 40px;
+}
+.skillImage-container img{
+    width: 90%;
+}
+.skills-content{
+    padding-top: 100px;
+}
+.skills-content p{
+    margin: 50px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(80, 85, 85);
+}
+.skills{
+    padding: 10px auto;
+}
+.programminglang{
+    display: flex;
+    justify-content: space-evenly;
+}
+.frameworks{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.database{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+@media(max-width:750px){
+    .about-content p{
+        font-size: 0.8rem;
+    }
+    .about-container h2{
+        font-size: 1rem;
+    }
+    .image-container img{
+        width: 100%;
+    }
+}

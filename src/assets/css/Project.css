@@ -1,0 +1,80 @@
+.work-container{
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.work-content{
+    width: 100%;
+    min-height: 500px;
+}
+.work-title h3{
+    text-align: center;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Source Code Pro', monospace;
+}
+.github-btn{
+    /* width: 5rem; */
+    display: flex;
+    margin: 0 auto;
+    padding: 5px;
+    border: none;
+    background-color: rgb(133, 133, 151);
+    border-radius: 20px;
+    outline: none;
+}
+
+.button button:focus{
+    outline: none;
+}
+
+.github-btn i{
+    margin-left: 10px;
+}
+.github-btn h5{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.work-title h5{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 300;
+    text-transform: capitalize;
+    font-family: 'Source Code Pro', monospace;
+}
+.my-work{
+    margin-top: 40px;
+}
+.work{
+    margin: 10px 0;
+}
+.project{
+    width: 100%;
+    -webkit-box-shadow: 10px 10px 36px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 36px -12px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 36px -12px rgba(0,0,0,0.75);
+}
+.work-col{
+    margin: 30px auto;
+}
+.project-image{
+    border: 1px solid black;
+}
+.project-image img{
+    width: 100%;
+}
+.description{
+    padding: 10px;
+    font-family: 'Source Code Pro', monospace;
+}
+.description h3{
+    text-align: center;
+}
+.description p{
+    font-size: .8rem;
+}
+.description button{
+    position: relative;
+    left: 40%;
+    border-radius: 20px;
+}

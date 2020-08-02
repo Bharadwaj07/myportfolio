@@ -1,21 +1,51 @@
 import React, { Component } from 'react'
-import {Navbar,Nav,Form,FormControl,Button,NavDropdown} from 'react-bootstrap';
+import {Navbar,Nav,Container} from 'react-bootstrap';
  class NavBar extends Component {
     render() {
         return (
             <>
-                <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-                    <Navbar.Brand href="#home">MyPorfolio</Navbar.Brand>
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                    <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
-                        <Nav>
-                            <Nav.Link href="#home">Home</Nav.Link>
-                            <Nav.Link href="#skills">Skills</Nav.Link>
-                            <Nav.Link href="#projects">Projects</Nav.Link>
-                            <Nav.Link href="#blogs">Blogs</Nav.Link>
-                            <Nav.Link href="#contacts">Contacts</Nav.Link>
-                        </Nav>
-                    </Navbar.Collapse>
+                <Navbar collapseOnSelect  className="navbar"variant="dark" fixed="top" >
+                    <Container>
+                        <Navbar.Brand href="#home"><i class="fa fa-code fa-1x" aria-hidden="true"></i></Navbar.Brand>
+                        <Navbar.Toggle variant="dark" className="toggle"/>
+                        <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
+                            <Nav>
+                                <Nav.Link href="#home" 
+                                    onClick ={e =>{
+                                        e.preventDefault();
+                                        document
+                                          .getElementById("home")
+                                          .scrollIntoView()
+                                      }}
+                                >Home</Nav.Link>
+                                <Nav.Link href="#about"
+                                    onClick ={e =>{
+                                        e.preventDefault();
+                                        document
+                                          .getElementById("about")
+                                          .scrollIntoView()
+                                      }}
+                                >About</Nav.Link>
+                                <Nav.Link href="#work"
+                                    onClick ={e =>{
+                                        e.preventDefault();
+                                        document
+                                          .getElementById("my-work")
+                                          .scrollIntoView()
+                                      }}
+                                >Work</Nav.Link>
+                                <Nav.Link href="#blogs">Blogs</Nav.Link>
+                                <Nav.Link href="#contacts"
+                                    onClick ={e =>{
+                                        e.preventDefault();
+                                        document
+                                          .getElementById("contact")
+                                          .scrollIntoView()
+                                      }}
+                                >Contacts</Nav.Link>
+                            </Nav>
+                        </Navbar.Collapse>
+                    </Container>
                 </Navbar>
             </>
         )

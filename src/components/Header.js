@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
+import NavBar from '../components/NavBar'
+import { Button } from 'react-bootstrap';
 
-
-var ReactRotatingText = require('react-rotating-text');
+// var ReactRotatingText = require('react-rotating-text');
 
 
  class Header extends Component {
@@ -12,18 +13,28 @@ var ReactRotatingText = require('react-rotating-text');
     render() {
         return (
            
-            <div className='page-header'>
-                <div className='page-header-img'
-                    style={{backgroundImage:`url(${require("../assets/img/bg3.jpg")})`}}
+            <div className='page-header' id="home"
+                style={{backgroundImage:`url(${require("../assets/img/undraw_version_control_9bpv.svg")})`}}
                     ref={this.pageHeader}
-                > 
-               
+                ><NavBar/>
+                
                     <div className='content-center'>
-                        <h1 className='title'>Hello,This is Bharadwaj K R.</h1>
-                        <ReactRotatingText items={['FrontEnd Developer', 'BackEnd Developer', 'Software Engineer']} />
+                        <h3 className='title'>Hello,This is Bharadwaj K R.</h3>
+                        <h4>A passionate WebDeveloper</h4>
+
+                        <Button className="downArrow"
+                            onClick ={e =>{
+                                e.preventDefault();
+                                document
+                                  .getElementById("about")
+                                  .scrollIntoView()
+                              }}
+                        ><i class="fa fa-arrow-down" aria-hidden="true"></i></Button>
+
+                        {/* <ReactRotatingText items={['FrontEnd Developer', 'BackEnd Developer', 'Software Engineer']} /> */}
                     </div>
                 
-                </div>
+                
             </div>
           
         )
