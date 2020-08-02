@@ -65,9 +65,9 @@ class About extends React.Component{
                                     <img src="https://img.icons8.com/color/60/000000/django.png" alt=""/>
                                 </div>
                                 <div className="database">
-                                    <img src="https://img.icons8.com/color/96/000000/mongodb.png" alt=""/>
-                                    <img src="https://img.icons8.com/ios/96/000000/mysql-logo.png" alt=""/>
-                                    <img src="https://img.icons8.com/color/96/000000/firebase.png" alt=""/>
+                                    <img src="https://img.icons8.com/color/60/000000/mongodb.png" alt=""/>
+                                    <img src="https://img.icons8.com/ios/60/000000/mysql-logo.png" alt=""/>
+                                    <img src="https://img.icons8.com/color/60/000000/firebase.png" alt=""/>
                                 </div>  
                             </div>
                         </Col>
