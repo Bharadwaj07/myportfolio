@@ -6,7 +6,7 @@ import {Navbar,Nav,Container} from 'react-bootstrap';
             <>
                 <Navbar collapseOnSelect expand="lg" className="navbar"variant="dark" fixed="top" >
                     <Container>
-                        <Navbar.Brand href="#home"><i class="fa fa-code fa-1x" aria-hidden="true"></i></Navbar.Brand>
+                        <Navbar.Brand href="#home"><i className="fa fa-code fa-1x" aria-hidden="true"></i></Navbar.Brand>
                         <Navbar.Toggle variant="dark" className="toggle"/>
                         <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
                             <Nav>

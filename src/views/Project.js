@@ -46,7 +46,7 @@ class Project extends React.Component{
                                                 I have used TMDB api to render the movie data .
 
                                             </p>
-                                            <button className="source-link"><a href="https://github.com/Bharadwaj07/TheMovieDb"><i class="fa fa-github" aria-hidden="true"></i> Source</a></button>
+                                            <button className="source-link"><a href="https://github.com/Bharadwaj07/TheMovieDb"><i className="fa fa-github" aria-hidden="true"></i> Source</a></button>
                                         </div>
                                     </div>
 
@@ -77,7 +77,7 @@ class Project extends React.Component{
                                                 CenturySports is a simulation of sports website using angular and firebase 
                                                 it has a simple registration and login interface.
                                             </p>
-                                            <button className="source-link"><a href="https://github.com/Bharadwaj07/CenturySports"><i class="fa fa-github" aria-hidden="true"></i> Source</a></button>
+                                            <button className="source-link"><a href="https://github.com/Bharadwaj07/CenturySports"><i className="fa fa-github" aria-hidden="true"></i> Source</a></button>
                                         </div>
                                     </div>
                             </Col>
@@ -109,7 +109,7 @@ class Project extends React.Component{
                                                 Covid-19 tracker is a react web application , it displays the live covid cases countrywise.
                                                 I have used disease.sh api to render the data and leaflet api for maps.
                                             </p>
-                                            <button className="source-link"><a href="https://github.com/Bharadwaj07/covid-19-tracker"><i class="fa fa-github" aria-hidden="true"></i> Source</a></button>
+                                            <button className="source-link"><a href="https://github.com/Bharadwaj07/covid-19-tracker"><i className="fa fa-github" aria-hidden="true"></i> Source</a></button>
                                         </div>
                                 </div>
                             </Col>
@@ -154,7 +154,7 @@ class Project extends React.Component{
                                                 It is just a front end project .
                                                 
                                             </p>
-                                            <button className="source-link"><a href="https://github.com/Bharadwaj07/myportfolio"><i class="fa fa-github" aria-hidden="true"></i> Source</a></button>
+                                            <button className="source-link"><a href="https://github.com/Bharadwaj07/myportfolio"><i className="fa fa-github" aria-hidden="true"></i> Source</a></button>
                                         </div>   
                                     </div>
                             </Col>

@@ -76,11 +76,19 @@
 @media(max-width:750px){
     .about-content p{
         font-size: 0.8rem;
+        margin: 20px;
     }
     .about-container h2{
-        font-size: 1rem;
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+    .image-container{
+        padding: 20px;
     }
     .image-container img{
         width: 100%;
+    }
+    .skills-content{
+        padding: 50px;
     }
 }

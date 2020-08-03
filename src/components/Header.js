@@ -29,7 +29,7 @@ import { Button } from 'react-bootstrap';
                                   .getElementById("about")
                                   .scrollIntoView()
                               }}
-                        ><i class="fa fa-arrow-down" aria-hidden="true"></i></Button>
+                        ><i className="fa fa-arrow-down" aria-hidden="true"></i></Button>
 
                         {/* <ReactRotatingText items={['FrontEnd Developer', 'BackEnd Developer', 'Software Engineer']} /> */}
                     </div>

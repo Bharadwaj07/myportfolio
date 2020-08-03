@@ -28,7 +28,7 @@ class Contact extends React.Component{
                                                     <a href="https://www.facebook.com/yajamanbharadwaj.kr"><i className="fa fa-facebook-square fa-2x" ></i></a>
                                                 </span>
                                                 <span>
-                                                    <a href="mailto:yajamankr@gmail.com"><i class="fa fa-envelope fa-2x"></i></a>
+                                                    <a href="mailto:yajamankr@gmail.com"><i className="fa fa-envelope fa-2x"></i></a>
                                                 </span>
                                             </div>
                                         </div> 
